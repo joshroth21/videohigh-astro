@@ -1,4 +1,5 @@
 ---
+const allEpisodes = await Astro.glob('../pages/episodes/*.md');
 ---
 
 <html lang="en">
@@ -11,5 +12,8 @@
 	</head>
 	<body>
 		<h1>My Astro Site</h1>
+		<ul>
+			{allEpisodes.map((episode) => <li><a href={episode.url}>{episode.frontmatter.title}</a></li>)}
+		</ul>
 	</body>
 </html>
