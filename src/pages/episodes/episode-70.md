@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/EpisodeLayout.astro
-title: "Ep #70 - Adventures in Dinosaur City (1991)"
+number: 70
+title: "Adventures in Dinosaur City (1991)"
 episodeLink:
   apple: "https://podcasts.apple.com/us/podcast/ep-70-adventures-in-dinosaur-city-1991/id1516093740?i=1000624760706&itsct=podcast_box&itscg=30200&ls=1"
   spotify: "https://podcasters.spotify.com/pod/show/videohigh/episodes/Ep-70---Adventures-in-Dinosaur-City-1991-e286una"

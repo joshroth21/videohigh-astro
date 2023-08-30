@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/EpisodeLayout.astro
-title: "Ep #1 - Strike Commando (1987)"
+number: 01
+title: "Strike Commando (1987)"
 pubDate: 2020-05-27
 episodeLink:
   apple: "https://podcasts.apple.com/us/podcast/ep-1-strike-commando/id1516093740?i=1000476263463"

@@ -30,7 +30,10 @@ const { frontmatter } = Astro.props;
       </ul>
     </div>
     <div class="w-2/3">
-      <h1 class="text-2xl font-semibold">{frontmatter.title}</h1>
+      <h1 class="text-2xl font-semibold">
+        <span>Ep #{frontmatter.number}:&nbsp;</span>
+        <span>{frontmatter.title}</span>
+      </h1>
       <h2 class="text-slate-500">{formatDate(frontmatter.pubDate)}</h2>
       <p class="my-4"><slot /></p>
       <div class="my-4 p-4 bg-slate-100 rounded">

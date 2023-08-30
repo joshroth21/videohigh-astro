@@ -1,9 +1,21 @@
 ---
-const { title, url, image } = Astro.props;
+const { data, url } = Astro.props;
 ---
 
-<li class="py-4">
-  <img class="w-32" src={image.url} alt={image.alt} />
-  <a class="text-slate-500 underline hover:text-slate-800" href={url}>{title}</a
-  >
+<li>
+  <a class="group" href={url}>
+    <div class="relative w-full">
+      <div
+        class="absolute -top-2 -left-2 z-10 bg-slate-800 bg-opacity-90 rounded shadow-md border-slate-300 border p-2 min-w-2 text-center ratio-circle"
+      >
+        <span class="font-bold text-slate-300">{data.number}</span>
+      </div>
+      <img class="w-full" src={data.image.url} alt={data.image.alt} />
+    </div>
+    <div
+      class="font-semibold text-sm leading-snug text-slate-500 group-hover:text-slate-800"
+    >
+      {data.title}
+    </div>
+  </a>
 </li>
