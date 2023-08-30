@@ -1,0 +1,9 @@
+---
+const { title, url, image } = Astro.props;
+---
+
+<li class="py-4">
+  <img class="w-32" src={image.url} alt={image.alt} />
+  <a class="text-slate-500 underline hover:text-slate-800" href={url}>{title}</a
+  >
+</li>

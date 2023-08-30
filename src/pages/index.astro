@@ -1,19 +1,19 @@
 ---
-const allEpisodes = await Astro.glob('../pages/episodes/*.md');
+import BaseLayout from "../layouts/BaseLayout.astro";
+import EpisodePost from "../components/EpisodePost.astro";
+const allEpisodes = await Astro.glob("../pages/episodes/*.md");
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>My Astro Site</h1>
-		<ul>
-			{allEpisodes.map((episode) => <li><a href={episode.url}>{episode.frontmatter.title}</a></li>)}
-		</ul>
-	</body>
-</html>
+<BaseLayout>
+  <ul class="grid grid-cols-4">
+    {
+      allEpisodes.map((episode) => (
+        <EpisodePost
+          title={episode.frontmatter.title}
+          url={episode.url}
+          image={episode.frontmatter.image}
+        />
+      ))
+    }
+  </ul>
+</BaseLayout>
