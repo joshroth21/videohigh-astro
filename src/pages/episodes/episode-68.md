@@ -1,0 +1,17 @@
+---
+layout: ../../layouts/EpisodeLayout.astro
+number: 68
+title: "Steel Dawn (1987)"
+pubDate: 2023-07-19
+episodeLink:
+  apple: "https://podcasts.apple.com/us/podcast/ep-68-steel-dawn-1987/id1516093740?i=1000621714176&itsct=podcast_box&itscg=30200&ls=1"
+  spotify: "https://podcasters.spotify.com/pod/show/videohigh/episodes/Ep-68-Steel-Dawn-1987-e274l8j"
+image:
+  url: "https://image.tmdb.org/t/p/original/q8dqpQgdnc35kVlE4EQAFnKMTfl.jpg"
+  alt: "Steel Dawn Poster"
+movieLinks:
+  lbx: "https://letterboxd.com/film/steel-dawn/"
+  imdb: "https://www.imdb.com/title/tt0094033/"
+---
+
+It's a mad mad mad max world in the post-apocalyptic western STEEL DAWN (1987). In this dystopian rip-off of the western classic SHANE, a dirty but non-dancing Patrick Swayze saunters out of the wasteland and into the arms of his real life wife, Lisa Niemi. But will a water robber baron, a knife-kneeing assassin, and the cries of a young boy to come back stop our unnamed hero? Not even a little. Now that's what I call wind racing!

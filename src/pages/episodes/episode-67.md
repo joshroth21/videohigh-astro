@@ -1,0 +1,21 @@
+---
+layout: ../../layouts/EpisodeLayout.astro
+number: 67
+title: "Evolver (1995) with Peter Angelo"
+pubDate: 2023-07-05
+episodeLink:
+  apple: "https://podcasts.apple.com/us/podcast/ep-67-evolver-1995-with-peter-angelo/id1516093740?i=1000619479717&itsct=podcast_box&itscg=30200&ls=1"
+  spotify: "https://podcasters.spotify.com/pod/show/videohigh/episodes/Ep-67-Evolver-1995-with-Peter-Angelo-e26k6vm"
+image:
+  url: "https://image.tmdb.org/t/p/original/ht71HZit00PcmDR6CSz2qgUqsEa.jpg"
+  alt: "Evolver Poster"
+movieLinks:
+  lbx: "https://letterboxd.com/film/evolver/"
+  imdb: "https://www.imdb.com/title/tt0112993/"
+---
+
+<p class="my-2">
+  Ready Player One? Take off that VR headset cuz EVOLVER (1995) is stepping out of the game and into the living room of one lucky contest winner (Ethan Embry). But this supposedly family-friendly adversary hates to lose and plays for keeps. A state-of-the-art robot voiced by William H. Macy goes on a killing spree in a 90s rental store classic where hi-tech meets low-class. And joining our class is stand up comedian PETER ANGELO (@metalpetecomedy), who's ready to tea-bag this bot. Get good.
+</p>
+
+<p class="my-2">Check out Pete and fellow Video High alum Neil Rubenstein's new podcast: <a class="underline" href="https://open.spotify.com/show/5fEeUmt4mpnnQsgqVi1d6M?si=b6617dc3f59244e9">Can't Stop, Should Stop!</a></p>

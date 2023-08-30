@@ -1,0 +1,19 @@
+---
+layout: ../../layouts/EpisodeLayout.astro
+number: 65
+title: "The Rejuvenator (1988)"
+pubDate: 2023-05-24
+episodeLink:
+  apple: "https://podcasts.apple.com/us/podcast/ep-65-the-rejuvenator-1988/id1516093740?i=1000614431050&itsct=podcast_box&itscg=30200&ls=1"
+  spotify: "https://podcasters.spotify.com/pod/show/videohigh/episodes/Ep-65-The-Rejuvenator-1988-e24l3l6"
+image:
+  url: "https://www.themoviedb.org/t/p/w1280/4zM8g2prXmhKRrmOE6l7jJBGwfo.jpg"
+  alt: "The Rejuvenator (1988) Poster"
+movieLinks:
+  lbx: "https://letterboxd.com/film/rejuvenatrix/"
+  imdb: "http://www.imdb.com/title/tt0095971/maindetails"
+---
+
+<p>Beauty is a real beast in THE REJUVENATOR (1988)! A mad scientist turns an aging b-movie starlet into a b-movie monster. It's like if THE FLY and SUNSET BLVD went into the machine from THE FLY.</p>
+
+<p>Can the killer make-up make up for a lackluster story? Does out of sync audio add to the film experience? Is Jamie the real monster for watching this movie at 1.5x? Lights, camera, serum!</p>

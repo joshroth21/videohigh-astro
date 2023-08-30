@@ -1,0 +1,17 @@
+---
+layout: ../../layouts/EpisodeLayout.astro
+number: 63
+title: "Dungeons & Dragons (2000)"
+pubDate: 2023-04-20
+episodeLink:
+  apple: "https://podcasts.apple.com/us/podcast/ep-63-dungeons-dragons-2000/id1516093740?i=1000610009333"
+  spotify: "https://podcasters.spotify.com/pod/show/videohigh/episodes/Ep-63-Dungeons--Dragons-2000-e22ocdg"
+image:
+  url: "https://image.tmdb.org/t/p/original/bbVFeTA4vv7gqXb8dPzxTg9j2gr.jpg"
+  alt: "Dungeons & Dragons Poster"
+movieLinks:
+  lbx: "https://letterboxd.com/film/dungeons-dragons/"
+  imdb: "https://letterboxd.com/film/dungeons-dragons/#:~:text=mins%20%C2%A0%20More%20at-,IMDB,-TMDB"
+---
+
+To celebrate the release of a new D&D movie, we're revisiting the old D&D movie: DUNGEONS AND DRAGONS (2000). It takes everything you love about the tabletop roleplaying game and burns it to a crisp. With graphics out of a late 90's screensaver and too many scepters to count, this one is a sight to Beholder. But at least Jeremy Irons is there to chew the scenery. Roll initiative!
