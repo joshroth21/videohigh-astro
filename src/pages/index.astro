@@ -5,13 +5,15 @@ const allEpisodes = await Astro.glob("../pages/episodes/*.md");
 ---
 
 <BaseLayout>
-  <ul class="grid grid-cols-3 gap-4">
-    {
-      allEpisodes
-        .reverse()
-        .map((episode) => (
-          <EpisodePost data={episode.frontmatter} url={episode.url} />
-        ))
-    }
-  </ul>
+  <div class="px-8 mx-auto max-w-prose md:px-0">
+    <ul class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      {
+        allEpisodes
+          .reverse()
+          .map((episode) => (
+            <EpisodePost data={episode.frontmatter} url={episode.url} />
+          ))
+      }
+    </ul>
+  </div>
 </BaseLayout>

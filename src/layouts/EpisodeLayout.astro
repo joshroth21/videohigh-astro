@@ -1,18 +1,34 @@
 ---
+import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { formatDate } from "../utils/format-date";
+import backwardsIcon from "../images/backward.svg";
 const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
-  <div class="flex">
-    <div class="w-1/3 mr-8">
+  <div class="bg-slate-300 py-2 -mt-10 mb-6 md:mb-10">
+    <div class="px-8 mx-auto max-w-prose md:px-0">
+      <a class="flex items-center hover:opacity-50 transition-all" href="/">
+        <Image
+          class="mr-2"
+          src={backwardsIcon}
+          height={16}
+          width={16}
+          alt="Back to Episodes"
+        />
+        <span class="font-semibold">Back to Episodes</span></a
+      >
+    </div>
+  </div>
+  <div class="px-8 mx-auto max-w-prose md:px-0 flex flex-col md:flex-row">
+    <div class="md:w-1/3 md:mr-8">
       <img
-        class="shadow-md"
+        class="shadow-md mx-auto"
         src={frontmatter.image.url}
         alt={frontmatter.image.alt}
       />
-      <ul class="list-disc ml-4 mt-4">
+      <ul class="hidden md:visible list-disc ml-4 mt-4">
         <li>
           <a
             class="text-slate-500 underline hover:text-slate-800"
@@ -29,8 +45,8 @@ const { frontmatter } = Astro.props;
         </li>
       </ul>
     </div>
-    <div class="w-2/3">
-      <h1 class="text-2xl font-semibold">
+    <div class="md:w-2/3">
+      <h1 class="my-4 md:my-0 text-2xl font-semibold">
         <span>Ep #{frontmatter.number}:&nbsp;</span>
         <span>{frontmatter.title}</span>
       </h1>
