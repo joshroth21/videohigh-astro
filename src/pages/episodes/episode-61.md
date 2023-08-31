@@ -1,0 +1,17 @@
+---
+layout: ../../layouts/EpisodeLayout.astro
+number: 61
+title: "Hands of Steel (1986)"
+pubDate: 2023-05-22
+episodeLink:
+  apple: "https://podcasts.apple.com/us/podcast/ep-61-hands-of-steel-1986/id1516093740?i=1000605495727"
+  spotify: "https://podcasters.spotify.com/pod/show/videohigh/episodes/Ep-61-Hands-of-Steel-1986-e20upiv"
+image:
+  url: "https://image.tmdb.org/t/p/original/s2al5ubCNoMud9hLA80KL1qQdxB.jpg"
+  alt: "Hands of Steel Poster"
+movieLinks:
+  lbx: "https://letterboxd.com/film/hands-of-steel/"
+  imdb: "http://www.imdb.com/title/tt0091166/maindetails"
+---
+
+In the nearish future Paco Queruak is a cyborg with second thoughts about his mission to assassinate an environmental crusader. After going on the run from his handlers, Paco wanders into an entirely different movie...an arm wrestling competition flick! HANDS OF STEEL (1986) is chock full of surprises. It has toilet paper based pranks. It has phallic computer renderings. It even has a helicopter chase that puts the "death" in "death-defying". You have no future, except to listen to this week's episode!
