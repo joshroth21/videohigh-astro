@@ -99,7 +99,7 @@ movieLinks:
 """
 
 	# Create the markdown file
-	file_name = f"episode-{number}.md"
+	file_name = f"{number}.md"
 	with open(file_name, "w") as f:
 		f.write(content)
 	
