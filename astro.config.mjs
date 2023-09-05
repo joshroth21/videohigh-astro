@@ -9,5 +9,9 @@ export default defineConfig({
   output: "server",
   adapter: vercel({
     functionPerRoute: false,
+    imageService: true,
+    imagesConfig: {
+      sizes: [320, 640, 1280],
+    },
   }),
 });
